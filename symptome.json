@@ -1,0 +1,39 @@
+{
+    "prise_pillule_contraceptive": "bool",
+    "dysménorrhée": "int",
+    "intensite_menstruation": "int",
+
+    "douleur_digestion": "int",
+    "douleur_defecation": "int",
+    "presence_sang_sel": "bool",
+    "Diarrhée": "bool",
+    "Constipation": "bool",
+
+    "brulure_urinaire": "bool",
+    "douleur_urinaire": "int",
+    "presence_sang_urine": "bool",
+    "dysurie": "bool",
+
+    "pollakiurie": "bool",
+
+    "fatigue": "int",
+
+    "dyspareunie": "int",
+
+    "traitement": [
+        {
+            "nom_medicament": "string",
+            "date_prise": "string"
+        }
+    ],
+
+    "douleurs_pelviennes": "int",
+    "douleurs_abdominales": "int",
+    "autre_douleur": [
+        {
+            "localisation_douleur": "string",
+            "intensite:douleur": "int"
+        }
+    ]
+
+}
